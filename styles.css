@@ -27,6 +27,7 @@ h1{
       -webkit-transform: rotateX(-180deg);
               transform: rotateX(-180deg);
     }
+    }   
   h2{
     margin-bottom: 1cm;
 }
@@ -41,7 +42,7 @@ h1{
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes bouton{
+@keyframes bouton2{
     from {background-color: coral;}
     to {background-color: rgb(189, 228, 189);}
 }
