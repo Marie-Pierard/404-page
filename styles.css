@@ -12,7 +12,7 @@ h1{
     padding-bottom: 0%;
     margin: 5%;
 }
-.bouton-perdu:hover{
+#bouton-perdu:hover{
 	-webkit-animation: flip-horizontal-bottom 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
             animation-play-state: running;
             animation-iteration-count: infinite;
@@ -37,12 +37,12 @@ h1{
     border:white 2px solid;
     border-radius: 25px; 
     background-color: coral;
-    animation-name: bouton;
+    animation-name: button2;
     animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes bouton2{
+@keyframes button2{
     from {background-color: coral;}
     to {background-color: rgb(189, 228, 189);}
 }
